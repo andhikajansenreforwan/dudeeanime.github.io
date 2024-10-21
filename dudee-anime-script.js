@@ -1,0 +1,1 @@
+alert('"Dudee Anime"のうぇぶさいとをよくこそ \n Welcome To Dudee Anime Website')

@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Catamaran", sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Navbar Section Style */
+.dudee-anime-navbar-section {
+    background-color: black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid lime;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dudee-anime-navbar-list ul {
+    display: flex;
+    left: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.dudee-anime-navbar-list ul li {
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+.dudee-anime-navbar-list ul li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.dudee-anime-navbar-list ul li a:hover {
+    font-size: 25px;
+    border-bottom: 3px solid lime;
+}
+
+.search-and-login-section {
+    display: flex;
+}
+
+.search-section {
+    margin-right: 65px;
+    margin-top: 10px;
+}
+
+.search-section i {
+    font-size: 30px;
+}
+
+.search-and-login-section button.login-button{
+    align-items: center;
+    margin-top: -3px;
+    background-color: lime;
+    width: 100px;
+    color: black;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+.search-and-login-section button.login-button:hover {
+    align-items: center;
+    background-color: #fff9f9;
+    color: rgb(3, 218, 3);
+    width: 100px;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.search-and-login-section input {
+    margin-right: 20px;
+    margin-top: -8px;
+    padding: 10px;
+    width: 200px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.search-and-login-section a {
+    color: lime;
+    position: absolute;
+}
+
+.search-and-login-section input:focus {
+    outline: none;
+}
+
+/* Banner Section Style */
+.dudee-anime-banner-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Anime\ banner.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+.dudee-banner-text {
+    font-size: 20px;
+    text-align: right;
+    align-items: end;
+    padding-top: 200px;
+    width: 700px;
+    float: right;
+    padding-right: 50px;
+    max-width: 80%;
+}
+
+.dudee-banner-text button {
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: lime;
+    border: none;
+    border-radius: 10px;
+}
+
+.dudee-banner-text button:hover {
+    padding: 10px;
+    color: rgb(50, 177, 50);
+    background-color: #fff9f9;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.dudee-anime-banner-watching-section {
+    background-image: url(img/chainsaw-man-banner\ \(4\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* Anime Banner Watching Section Style */
+.banner-watching-text {
+    align-items: flex-end;
+    padding-top: 380px;
+    padding-left: 50px;
+}
+
+.banner-watching-text h1 {
+    font-size: 50px;
+}
+
+.banner-watching-text p {
+    padding: 5px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.banner-watching-text button {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    font-size: 20px;
+}
+
+.banner-watching-text button:hover {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: lime;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    font-size: 20px;
+}
+
+/* Anime List Style */
+.body-list-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.dudee-anime-list-of-anime {
+    width: 850px;
+}
+
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.anime-list img {
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.anime-list a {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.anime-list h4 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.trending-anime-list, .learning-japanese-anime-list, .action-anime-list-section,
+.sports-anime-section, .kids-anime-section{
+    margin-bottom: 100px;
+}
+
+.trending-anime-text, .learning-japanese-anime-text, .action-anime-list-text,
+.sports-anime-text, .kids-anime-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-left: 3px solid lime;
+}
+
+.trending-anime-text h1, .learning-japanese-anime-text h1, .action-anime-list-text h1,
+.sports-anime-text h1, .kids-anime-text h1 {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.trending-anime-text a, .learning-japanese-anime-text a, .action-anime-list-text a,
+.sports-anime-text a, .kids-anime-text a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.trending-anime-text a:hover, .learning-japanese-anime-text a:hover, .action-anime-list-text a:hover,
+.sports-anime-text a:hover, .kids-anime-text a:hover {
+    margin-top: 20px;
+    color: lime;
+    font-size: 25px;
+}
+
+/* Learning Japanese Section Style */
+.learning-japanese-anime-text i {
+    margin-bottom: 50px;
+}
+
+/* Side Bar Section Style */
+.sidebar-section {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.sidebar-section button {
+    color: black;
+    padding: 10px;
+    width: 120px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: lime;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.sidebar-section button:hover {
+    color: black;
+    padding: 10px;
+    width: 120px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.sidebar-section h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.genre-section-header, .year-section-header, .type-section-header,
+.top-views-section-header, .tokusatsu-section-header {
+    border-left: 4px solid lime;
+}
+
+.genre-section, .year-section, .type-section, .top-views-section,
+.tokusatsu-section {
+    margin-bottom: 50px;
+}
+
+/* Top Views + Tokusatsu Section Style */
+.top-views-anime-list img, .tokusatsu-anime-list img {
+    border-radius: 10px;
+}
+
+.kimi-no-nawa, .suzume-no-tojimari, .one-punch-man, .boku-no-hero-academia,
+.kidou-no-senshi-gundam-seed-freedom, .genseishin-justirisers, .ultraman-gaia,
+.ultraman-nexus,  .ultraman-zero, .kamen-rider {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.anime-text{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.anime-text button {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.anime-text button:hover {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.anime-text a {
+    padding: 4px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    height: 50px;
+}
+
+.anime-text h3 {
+    margin-top: 7px;
+}
+
+/* Rate Star Section */
+.tokusatsu-anime-list span, .top-views-anime-list span, .kids-anime-section span,
+.sports-anime-section span, .action-anime-list-section span, .learning-japanese-anime-list span,
+.trending-anime-list span {
+    color: gold;
+}
+
+/* Email + Subscription Section Style */
+.email-membership-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    border-top: 5px solid lime;
+    border-bottom: 5px solid lime;
+    background-image: url(img/wallpapersden.com_anime-girl-looking-for-sunset_1952x1120.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.email-membership-section h1 {
+    font-size: 50px;
+}
+
+.email-membership-section p {
+    font-size: 30px;
+}
+
+.email-input-section {
+    margin-top: 20px;
+}
+
+.email-input-section input {
+    width: 600px;
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+.email-input-section input:focus {
+    outline: none;
+}
+
+.email-input-section button {
+    width: 180px;
+    padding: 15px;
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    height: 75px;
+    background-color: lime;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.email-input-section button:hover {
+    width: 180px;
+    padding: 15px;
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    height: 75px;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+/* Membership Plan List Section */
+.membership-plan-list-section {
+    padding: 30px;
+    background-image: url(photo-1519638399535-1b036603ac77.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.membership-plan-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.membership-plan-header h1 {
+    font-size: 60px
+}
+
+.membership-plan-header p {
+    font-size: 20px;
+}
+
+.membership-plan-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.membership-plan-list h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.membership-plan-list i {
+    text-decoration: line-through;
+    font-size: 50px;
+}
+
+.membership-plan-list b {
+    font-size: 50px;
+}
+
+.membership-plan-list p {
+    margin-bottom: 30px;
+}
+
+.membership-plan-list button {
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    background-color: lime;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.membership-plan-list button:hover {
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.ikkagetsu-plan, .sankagetsu-plan, .rokkagetsu-plan, .ichinen-plan {
+    width: 500px;
+    border-radius: 10px;
+    padding: 25px;
+    border: 4px solid lime;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Footer Section Style */
+
+/* About Section Style */
+.dudee-anime-footer-section {
+    /* padding: 50px; */
+    border-top: 5px solid lime;
+}
+
+.about-section {
+    padding: 50px;
+}
+
+.about-section img {
+    margin-left: 20px;
+}
+
+.about-section-header {
+    display: flex;
+}
+
+.about-section p {
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    text-align: justify;
+}
+
+/* Security Contact and Help Section Style */
+.security-contact-and-help-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    font-size: 25px;
+}
+
+.security-contact-and-help-section ul li {
+    list-style-type: none;
+}
+
+.security-contact-and-help-section ul li a{
+    text-decoration: none;
+}
+
+.security-contact-and-help-section ul li a:hover {
+    color: lime;
+}
+
+
+/* Copyright Section Style */
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.copyright-section img {
+    margin-bottom: 10px;
+}
+
+.copyright-section p {
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright-section-logo i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.copyright-section-logo i:hover {
+    color: lime;
+}
